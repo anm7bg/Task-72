@@ -1,4 +1,6 @@
 import "./App.css";
+import "./Tags.js";
+import RenderTags from "./Tags.js";
 
 function App() {
   return (
@@ -11,7 +13,7 @@ function App() {
       </section>
       <div class="container is-fullhd">
         <div class="notification">
-          Edit the <code>./src</code> folder to add components.
+          <RenderTags />
         </div>
       </div>
     </div>
