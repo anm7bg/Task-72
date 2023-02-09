@@ -1,5 +1,4 @@
 import "./App.css";
-import "./Tags.js";
 import RenderTags from "./Tags.js";
 
 function App() {
