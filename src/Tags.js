@@ -7,11 +7,11 @@ function RenderTags() {
     // let div = <div className="tags" id="tags"></div>
 
     return (
-        <div className="tags">
+        <ul className="tags">
             {
-                tags.map(x => <span className="tag">#{x}</span>)
+                tags.map(x => <li className="tag">#{x}</li>)
             }
-        </div>
+        </ul>
         );
    
 
