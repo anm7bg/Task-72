@@ -1,7 +1,7 @@
 // import React, { createElement } from "react";
 
 
-function RenderTags({ tags = ["boomdotdev", "task", "tags", "react"] }) {
+function RenderTags({ tags = ['"boomdotdev"', '"task"', '"tags"', '"react"'] }) {
    
     // let div = <div className="tags" id="tags"></div>
 
